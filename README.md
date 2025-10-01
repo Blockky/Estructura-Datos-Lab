@@ -26,5 +26,5 @@ Nota: Las agrupaciones por sesión solo son visibles desde Codelite, en un gesto
 
 ### Sesión 03
 - [Ejemplo13/main.cpp](MiWorkspace/Ejemplo13/)
-- [Pilas/main.cpp](MiWorkspace/Ejemplo10/)
-- [Colas/main.cpp](MiWorkspace/Ejemplo11/)
+- [Pilas/](MiWorkspace/Pilas/)
+- [Colas/](MiWorkspace/Colas/)

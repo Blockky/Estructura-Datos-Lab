@@ -15,10 +15,15 @@
     <Project Name="Ejemplo01" Path="Ejemplo01/Ejemplo01.project" Active="No"/>
     <Project Name="Ejemplo09" Path="Ejemplo09/Ejemplo09.project" Active="No"/>
     <Project Name="Ejemplo10" Path="Ejemplo10/Ejemplo10.project" Active="No"/>
-    <Project Name="Ejemplo11" Path="Ejemplo11/Ejemplo11.project" Active="Yes"/>
+    <Project Name="Ejemplo11" Path="Ejemplo11/Ejemplo11.project" Active="No"/>
     <Project Name="Ejemplo12" Path="Ejemplo12/Ejemplo12.project" Active="No"/>
     <Project Name="Ejemplo-Paso_de_argumentos" Path="Ejemplo-Paso_de_argumentos/Ejemplo-Paso_de_argumentos.project" Active="No"/>
     <Project Name="Ejemplo-Paso_por_referencia" Path="Ejemplo-Paso_por_referencia/Ejemplo-Paso_por_referencia.project" Active="No"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Sesion03">
+    <Project Name="Ejemplo13" Path="Ejemplo13/Ejemplo13.project" Active="No"/>
+    <Project Name="Pilas" Path="Pilas/Pilas.project" Active="Yes"/>
+    <Project Name="Colas" Path="Colas/Colas.project" Active="No"/>
   </VirtualDirectory>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug">
@@ -39,6 +44,9 @@
       <Project Name="Ejemplo12" ConfigName="Debug"/>
       <Project Name="Ejemplo-Paso_de_argumentos" ConfigName="Debug"/>
       <Project Name="Ejemplo-Paso_por_referencia" ConfigName="Debug"/>
+      <Project Name="Ejemplo13" ConfigName="Debug"/>
+      <Project Name="Pilas" ConfigName="Debug"/>
+      <Project Name="Colas" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release">
       <Environment/>
@@ -58,6 +66,9 @@
       <Project Name="Ejemplo12" ConfigName="Release"/>
       <Project Name="Ejemplo-Paso_de_argumentos" ConfigName="Release"/>
       <Project Name="Ejemplo-Paso_por_referencia" ConfigName="Release"/>
+      <Project Name="Ejemplo13" ConfigName="Release"/>
+      <Project Name="Pilas" ConfigName="Release"/>
+      <Project Name="Colas" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>

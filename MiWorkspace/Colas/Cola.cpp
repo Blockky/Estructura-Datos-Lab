@@ -15,7 +15,7 @@ void Cola::insertar(int v)
     
     ultimo = nuevo;
     
-    if(!ultimo)
+    if(!primero)
         primero = nuevo;
     longitud++;
 }

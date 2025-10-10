@@ -1,19 +1,21 @@
 #ifndef NODOPILA_HPP
 #define NODOPILA_HPP
 #include <iostream>
+#include "Persona.hpp"
 using namespace std;
 
 class NodoPila
 {
 public:
-    NodoPila(int v, NodoPila* sig = NULL);
+    NodoPila(Persona* p = NULL, NodoPila* sig = NULL);
     ~NodoPila();
 
 private:
-    int valor;
+    Persona* valor;
     NodoPila* siguiente;
     
     friend class Pila;
+    friend class Persona;
 };
 
 typedef NodoPila* pNodoPila;
